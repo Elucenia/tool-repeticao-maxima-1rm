@@ -1,0 +1,60 @@
+[
+  {
+    "label": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+    "input": {
+      "carga": 100,
+      "reps": 10
+    },
+    "expected": {
+      "raw": {
+        "epley": 133.33,
+        "brzycki": 133.33,
+        "media": 133.33
+      },
+      "level": "info"
+    },
+    "originalInput": {
+      "carga": 100,
+      "reps": 10
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+    "input": {
+      "carga": 80,
+      "reps": 5
+    },
+    "expected": {
+      "raw": {
+        "epley": 93.33,
+        "brzycki": 90,
+        "media": 91.67
+      }
+    },
+    "originalInput": {
+      "carga": 80,
+      "reps": 5
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "60 kg × 1: a própria carga",
+    "input": {
+      "carga": 60,
+      "reps": 1
+    },
+    "expected": {
+      "raw": {
+        "epley": 60,
+        "brzycki": 60,
+        "media": 60
+      }
+    },
+    "originalInput": {
+      "carga": 60,
+      "reps": 1
+    },
+    "expandedZeroOptions": []
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "tool": {
+    "id": "repeticao-maxima-1rm",
+    "title": "1RM estimada (Epley e Brzycki)",
+    "short": "Uma repetição máxima sem teste máximo",
+    "desc": "Estime a carga de uma repetição máxima (1RM) pelas equações de Epley e Brzycki a partir de uma série até a falha, com as cargas de 60 a 90% de 1RM.",
+    "lead": "Estima a carga máxima que a pessoa levantaria uma única vez a partir de uma série submáxima levada até a falha, para prescrever o treino de força por porcentagem de 1RM.",
+    "spec": [
+      "medicina-esportiva",
+      "medicina-fisica-e-reabilitacao"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "carga",
+        "Carga levantada",
+        "num",
+        {
+          "min": 1,
+          "max": 500,
+          "step": 0.5,
+          "unit": "kg",
+          "ph": "80"
+        }
+      ],
+      [
+        "reps",
+        "Repetições completas até a falha",
+        "num",
+        {
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "ph": "8"
+        }
+      ]
+    ],
+    "formula": "<p><strong>Epley</strong>: 1RM = carga × (1 + repetições/30).</p><p><strong>Brzycki</strong>: 1RM = carga × 36 ÷ (37 − repetições).</p><p>O resultado principal é a média das duas. Com 1 repetição, a própria carga é a 1RM.</p>",
+    "table": [
+      [
+        "% de 1RM",
+        "Uso habitual"
+      ],
+      [
+        "≥ 85%",
+        "Força máxima (1 a 6 repetições)"
+      ],
+      [
+        "67 a 85%",
+        "Hipertrofia (6 a 12 repetições)"
+      ],
+      [
+        "&lt; 67%",
+        "Resistência muscular, iniciantes, idosos"
+      ]
+    ],
+    "tips": [
+      "As equações são mais precisas com <strong>até 10 repetições</strong>; acima disso, o erro cresce e varia entre exercícios.",
+      "As duas equações coincidem em 10 repetições; com poucas repetições Epley dá valores um pouco maiores.",
+      "Use em quem já tem técnica: em iniciantes, a falha por coordenação subestima a força real.",
+      "Em cardiopatas, idosos e na reabilitação, a estimativa evita o teste máximo, que exige manobra de Valsalva e maior pico pressórico."
+    ],
+    "sources": [
+      [
+        "Brzycki M. Strength testing: predicting a one-rep max from reps-to-fatigue. J Phys Educ Recreat Dance, 1993.",
+        "https://doi.org/10.1080/07303084.1993.10606684"
+      ],
+      [
+        "LeSuer DA et al. The accuracy of prediction equations for estimating 1-RM performance in the bench press, squat, and deadlift. J Strength Cond Res, 1997.",
+        "https://doi.org/10.1519/00124278-199711000-00001"
+      ]
+    ],
+    "cases": [
+      [
+        "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        {
+          "carga": 100,
+          "reps": 10
+        },
+        {
+          "raw": {
+            "epley": 133.33,
+            "brzycki": 133.33,
+            "media": 133.33
+          },
+          "level": "info"
+        }
+      ],
+      [
+        "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        {
+          "carga": 80,
+          "reps": 5
+        },
+        {
+          "raw": {
+            "epley": 93.33,
+            "brzycki": 90,
+            "media": 91.67
+          }
+        }
+      ],
+      [
+        "60 kg × 1: a própria carga",
+        {
+          "carga": 60,
+          "reps": 1
+        },
+        {
+          "raw": {
+            "epley": 60,
+            "brzycki": 60,
+            "media": 60
+          }
+        }
+      ]
+    ],
+    "batch": "cirurgia-sentidos",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cirurgia-sentidos",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cirurgia-sentidos.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cirurgia-sentidos.php",
+    "sha256": "21fc91a9a8187a66496f68c2ac8fbdd20a65ceeea519687c963b857f72640866",
+    "bytes": 89063
+  },
+  "clinicalValidation": "not-performed"
+}
