@@ -1,11 +1,11 @@
-/* tool-repeticao-maxima-1rm · Elucenia · https://github.com/Elucenia/tool-repeticao-maxima-1rm
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-repeticao-maxima-1rm · ELUCENIA · https://github.com/Elucenia/tool-repeticao-maxima-1rm
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"repeticao-maxima-1rm","title":"1RM estimada (Epley e Brzycki)","fields":[["carga","Carga levantada","num",{"min":1,"max":500,"step":0.5,"unit":"kg","ph":"80"}],["reps","Repetições completas até a falha","num",{"min":1,"max":15,"step":1,"ph":"8"}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
