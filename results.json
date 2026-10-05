@@ -1,0 +1,363 @@
+{
+  "id": "repeticao-maxima-1rm",
+  "at": "2026-10-05T17:30:05.057Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/repeticao-maxima-1rm/calculator.js",
+    "bytes": 4926,
+    "sha256": "13685ea7d4bdd88cb76c2f2624bdd8348a74a3dce75605f5fc79aebe75c84838"
+  },
+  "cases": [
+    {
+      "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+      "input": {
+        "carga": 100,
+        "reps": 10
+      },
+      "obtained": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "133,3",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 133.33333333333331,
+          "brzycki": 133.33333333333334,
+          "media": 133.33333333333331
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.epley",
+          "expected": 133.33,
+          "obtained": 133.33333333333331,
+          "tolerance": 0.00500001,
+          "difference": 0.00333333333330188,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.brzycki",
+          "expected": 133.33,
+          "obtained": 133.33333333333334,
+          "tolerance": 0.00500001,
+          "difference": 0.0033333333333303017,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.media",
+          "expected": 133.33,
+          "obtained": 133.33333333333331,
+          "tolerance": 0.00500001,
+          "difference": 0.00333333333330188,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.epley",
+          "expected": 133.33333333333331,
+          "obtained": 133.33333333333331,
+          "tolerance": 1.333333333333333e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.brzycki",
+          "expected": 133.33333333333334,
+          "obtained": 133.33333333333334,
+          "tolerance": 1.3333333333333334e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.media",
+          "expected": 133.33333333333331,
+          "obtained": 133.33333333333331,
+          "tolerance": 1.333333333333333e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "133,3",
+          "obtained": "133,3",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg",
+          "obtained": "kg",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+      "input": {
+        "carga": 80,
+        "reps": 5
+      },
+      "obtained": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "91,7",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 93.33333333333334,
+          "brzycki": 90,
+          "media": 91.66666666666667
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.epley",
+          "expected": 93.33,
+          "obtained": 93.33333333333334,
+          "tolerance": 0.00500001,
+          "difference": 0.0033333333333445125,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.brzycki",
+          "expected": 90,
+          "obtained": 90,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.media",
+          "expected": 91.67,
+          "obtained": 91.66666666666667,
+          "tolerance": 0.00500001,
+          "difference": 0.0033333333333303017,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.epley",
+          "expected": 93.33333333333334,
+          "obtained": 93.33333333333334,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.brzycki",
+          "expected": 90,
+          "obtained": 90,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.media",
+          "expected": 91.66666666666667,
+          "obtained": 91.66666666666667,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "91,7",
+          "obtained": "91,7",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg",
+          "obtained": "kg",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "60 kg × 1: a própria carga",
+      "input": {
+        "carga": 60,
+        "reps": 1
+      },
+      "obtained": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "60,0",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.epley",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.brzycki",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.media",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.epley",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.brzycki",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.media",
+          "expected": 60,
+          "obtained": 60,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "60,0",
+          "obtained": "60,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg",
+          "obtained": "kg",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 24,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

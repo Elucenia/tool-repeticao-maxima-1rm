@@ -1,6 +1,13 @@
 [
   {
-    "label": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+    "id": "repeticao-maxima-1rm",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+    "originalInput": {
+      "carga": 100,
+      "reps": 10
+    },
     "input": {
       "carga": 100,
       "reps": 10
@@ -13,14 +20,36 @@
       },
       "level": "info"
     },
-    "originalInput": {
-      "carga": 100,
-      "reps": 10
+    "recordedResult": {
+      "main": [
+        "133,3",
+        "kg"
+      ],
+      "label": "1RM estimada (média de Epley e Brzycki)",
+      "raw": {
+        "epley": 133.33333333333331,
+        "brzycki": 133.33333333333334,
+        "media": 133.33333333333331
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+    "id": "repeticao-maxima-1rm",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+    "originalInput": {
+      "carga": 80,
+      "reps": 5
+    },
     "input": {
       "carga": 80,
       "reps": 5
@@ -32,14 +61,36 @@
         "media": 91.67
       }
     },
-    "originalInput": {
-      "carga": 80,
-      "reps": 5
+    "recordedResult": {
+      "main": [
+        "91,7",
+        "kg"
+      ],
+      "label": "1RM estimada (média de Epley e Brzycki)",
+      "raw": {
+        "epley": 93.33333333333334,
+        "brzycki": 90,
+        "media": 91.66666666666667
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "60 kg × 1: a própria carga",
+    "id": "repeticao-maxima-1rm",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "60 kg × 1: a própria carga",
+    "originalInput": {
+      "carga": 60,
+      "reps": 1
+    },
     "input": {
       "carga": 60,
       "reps": 1
@@ -51,10 +102,25 @@
         "media": 60
       }
     },
-    "originalInput": {
-      "carga": 60,
-      "reps": 1
+    "recordedResult": {
+      "main": [
+        "60,0",
+        "kg"
+      ],
+      "label": "1RM estimada (média de Epley e Brzycki)",
+      "raw": {
+        "epley": 60,
+        "brzycki": 60,
+        "media": 60
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

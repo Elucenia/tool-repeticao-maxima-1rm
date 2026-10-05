@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field carga",
+    "input": {
+      "reps": 10
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field carga",
+    "input": {
+      "carga": "",
+      "reps": 10
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" carga",
+    "input": {
+      "carga": "NaN",
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" carga",
+    "input": {
+      "carga": "Infinity",
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" carga",
+    "input": {
+      "carga": "1e309",
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" carga",
+    "input": {
+      "carga": "invalid",
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} carga",
+    "input": {
+      "carga": {},
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true carga",
+    "input": {
+      "carga": true,
+      "reps": 10
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum carga",
+    "input": {
+      "carga": 0,
+      "reps": 10
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum carga",
+    "input": {
+      "carga": 550,
+      "reps": 10
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "carga"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field reps",
+    "input": {
+      "carga": 100
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field reps",
+    "input": {
+      "carga": 100,
+      "reps": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" reps",
+    "input": {
+      "carga": 100,
+      "reps": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" reps",
+    "input": {
+      "carga": 100,
+      "reps": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" reps",
+    "input": {
+      "carga": 100,
+      "reps": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" reps",
+    "input": {
+      "carga": 100,
+      "reps": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} reps",
+    "input": {
+      "carga": 100,
+      "reps": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true reps",
+    "input": {
+      "carga": 100,
+      "reps": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum reps",
+    "input": {
+      "carga": 100,
+      "reps": 0
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum reps",
+    "input": {
+      "carga": 100,
+      "reps": 16.5
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "reps"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
