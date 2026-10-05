@@ -1,0 +1,737 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "repeticao-maxima-1rm",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/repeticao-maxima-1rm/calculator.js",
+    "sha256": "13685ea7d4bdd88cb76c2f2624bdd8348a74a3dce75605f5fc79aebe75c84838",
+    "bytes": 4926
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 3,
+    "replayed": 3,
+    "passed": 3,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "repeticao-maxima-1rm",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+      "originalInput": {
+        "carga": 100,
+        "reps": 10
+      },
+      "input": {
+        "carga": 100,
+        "reps": 10
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "epley": 133.33,
+          "brzycki": 133.33,
+          "media": 133.33
+        },
+        "level": "info"
+      },
+      "recordedResult": {
+        "main": [
+          "133,3",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 133.33333333333331,
+          "brzycki": 133.33333333333334,
+          "media": 133.33333333333331
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "carga": 100,
+            "reps": 10
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+          "startedAt": "2026-10-05T17:35:43.253Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "repeticao-maxima-1rm",
+              "main": [
+                "133,3",
+                "kg"
+              ],
+              "label": "1RM estimada (média de Epley e Brzycki)",
+              "raw": {
+                "epley": 133.33333333333331,
+                "brzycki": 133.33333333333334,
+                "media": 133.33333333333331
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "61807acaa10799ad96780d0fa2897dd732513156f7a4e2d247c1ce9cad9f1259",
+          "bytes": 241,
+          "elapsedMs": 23.571000000000026
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "startedAt": "2026-10-05T17:35:43.253Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "repeticao-maxima-1rm",
+            "main": [
+              "133,3",
+              "kg"
+            ],
+            "label": "1RM estimada (média de Epley e Brzycki)",
+            "raw": {
+              "epley": 133.33333333333331,
+              "brzycki": 133.33333333333334,
+              "media": 133.33333333333331
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "61807acaa10799ad96780d0fa2897dd732513156f7a4e2d247c1ce9cad9f1259",
+        "bytes": 241,
+        "elapsedMs": 23.571000000000026
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.epley",
+            "expected": 133.33,
+            "obtained": 133.33333333333331,
+            "tolerance": 0.00500001,
+            "difference": 0.00333333333330188,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.brzycki",
+            "expected": 133.33,
+            "obtained": 133.33333333333334,
+            "tolerance": 0.00500001,
+            "difference": 0.0033333333333303017,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.media",
+            "expected": 133.33,
+            "obtained": 133.33333333333331,
+            "tolerance": 0.00500001,
+            "difference": 0.00333333333330188,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.epley",
+            "expected": 133.33333333333331,
+            "obtained": 133.33333333333331,
+            "tolerance": 1.333333333333333e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.brzycki",
+            "expected": 133.33333333333334,
+            "obtained": 133.33333333333334,
+            "tolerance": 1.3333333333333334e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.media",
+            "expected": 133.33333333333331,
+            "obtained": 133.33333333333331,
+            "tolerance": 1.333333333333333e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "133,3",
+            "obtained": "133,3",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg",
+            "obtained": "kg",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "repeticao-maxima-1rm",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+      "originalInput": {
+        "carga": 80,
+        "reps": 5
+      },
+      "input": {
+        "carga": 80,
+        "reps": 5
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "epley": 93.33,
+          "brzycki": 90,
+          "media": 91.67
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "91,7",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 93.33333333333334,
+          "brzycki": 90,
+          "media": 91.66666666666667
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "carga": 80,
+            "reps": 5
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+          "startedAt": "2026-10-05T17:35:43.562Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "repeticao-maxima-1rm",
+              "main": [
+                "91,7",
+                "kg"
+              ],
+              "label": "1RM estimada (média de Epley e Brzycki)",
+              "raw": {
+                "epley": 93.33333333333334,
+                "brzycki": 90,
+                "media": 91.66666666666667
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "e63b7b3d48d523191ef281a5e04c49281520b39b3d967abe6ff70b063a2202d8",
+          "bytes": 222,
+          "elapsedMs": 9.396299999999997
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "startedAt": "2026-10-05T17:35:43.562Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "repeticao-maxima-1rm",
+            "main": [
+              "91,7",
+              "kg"
+            ],
+            "label": "1RM estimada (média de Epley e Brzycki)",
+            "raw": {
+              "epley": 93.33333333333334,
+              "brzycki": 90,
+              "media": 91.66666666666667
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "e63b7b3d48d523191ef281a5e04c49281520b39b3d967abe6ff70b063a2202d8",
+        "bytes": 222,
+        "elapsedMs": 9.396299999999997
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.epley",
+            "expected": 93.33,
+            "obtained": 93.33333333333334,
+            "tolerance": 0.00500001,
+            "difference": 0.0033333333333445125,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.brzycki",
+            "expected": 90,
+            "obtained": 90,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.media",
+            "expected": 91.67,
+            "obtained": 91.66666666666667,
+            "tolerance": 0.00500001,
+            "difference": 0.0033333333333303017,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.epley",
+            "expected": 93.33333333333334,
+            "obtained": 93.33333333333334,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.brzycki",
+            "expected": 90,
+            "obtained": 90,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.media",
+            "expected": 91.66666666666667,
+            "obtained": 91.66666666666667,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "91,7",
+            "obtained": "91,7",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg",
+            "obtained": "kg",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "repeticao-maxima-1rm",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "60 kg × 1: a própria carga",
+      "originalInput": {
+        "carga": 60,
+        "reps": 1
+      },
+      "input": {
+        "carga": 60,
+        "reps": 1
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "60,0",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "carga": 60,
+            "reps": 1
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+          "startedAt": "2026-10-05T17:35:43.874Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "repeticao-maxima-1rm",
+              "main": [
+                "60,0",
+                "kg"
+              ],
+              "label": "1RM estimada (média de Epley e Brzycki)",
+              "raw": {
+                "epley": 60,
+                "brzycki": 60,
+                "media": 60
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "2bd1e17d76eb88cdc2b5e83b4b8b68723f16e23df2891940803d63db3ff0efcd",
+          "bytes": 192,
+          "elapsedMs": 3.7192999999999756
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/repeticao-maxima-1rm/calculate",
+        "startedAt": "2026-10-05T17:35:43.874Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "repeticao-maxima-1rm",
+            "main": [
+              "60,0",
+              "kg"
+            ],
+            "label": "1RM estimada (média de Epley e Brzycki)",
+            "raw": {
+              "epley": 60,
+              "brzycki": 60,
+              "media": 60
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "2bd1e17d76eb88cdc2b5e83b4b8b68723f16e23df2891940803d63db3ff0efcd",
+        "bytes": 192,
+        "elapsedMs": 3.7192999999999756
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.epley",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.brzycki",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.media",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.epley",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.brzycki",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.media",
+            "expected": 60,
+            "obtained": 60,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "60,0",
+            "obtained": "60,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg",
+            "obtained": "kg",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
