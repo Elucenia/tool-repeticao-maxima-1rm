@@ -71,3 +71,43 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Epley 133,3 kg · Brzycki 133,3 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| 90% di 1RM (forza massima) | 120,0 kg |
+| 80% di 1RM (ipertrofia/forza) | 106,7 kg |
+| 70% di 1RM | 93,3 kg |
+| 60% di 1RM (principianti, resistenza) | 80,0 kg |
+
+
+### 2
+
+Epley 93,3 kg · Brzycki 90,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| 90% di 1RM (forza massima) | 82,5 kg |
+| 80% di 1RM (ipertrofia/forza) | 73,3 kg |
+| 70% di 1RM | 64,2 kg |
+| 60% di 1RM (principianti, resistenza) | 55,0 kg |
+
+
+### 3
+
+Epley 60,0 kg · Brzycki 60,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| 90% di 1RM (forza massima) | 54,0 kg |
+| 80% di 1RM (ipertrofia/forza) | 48,0 kg |
+| 70% di 1RM | 42,0 kg |
+| 60% di 1RM (principianti, resistenza) | 36,0 kg |
+

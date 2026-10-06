@@ -1,0 +1,2409 @@
+{
+  "id": "repeticao-maxima-1rm",
+  "implementationVersion": "repeticao-maxima-1rm@native-2026-10-05+46e4ff642523",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (força máxima)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "120,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/força)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "106,7 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "93,3 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (iniciantes, resistência)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "80,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133,3 kg · Brzycki 133,3 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (força máxima)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "82,5 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/força)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "73,3 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "64,2 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (iniciantes, resistência)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "55,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93,3 kg · Brzycki 90,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (força máxima)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "54,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/força)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "48,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "42,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (iniciantes, resistência)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "36,0 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60,0 kg · Brzycki 60,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% of 1RM (maximum strength)",
+                "locale": "en",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% of 1RM (hypertrophy/strength)",
+                "locale": "en",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106.7 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% of 1RM",
+                "locale": "en",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93.3 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% of 1RM (beginners, endurance)",
+                "locale": "en",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133.3 kg · Brzycki 133.3 kg",
+            "locale": "en",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% of 1RM (maximum strength)",
+                "locale": "en",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82.5 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% of 1RM (hypertrophy/strength)",
+                "locale": "en",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73.3 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% of 1RM",
+                "locale": "en",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64.2 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% of 1RM (beginners, endurance)",
+                "locale": "en",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93.3 kg · Brzycki 90.0 kg",
+            "locale": "en",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% of 1RM (maximum strength)",
+                "locale": "en",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% of 1RM (hypertrophy/strength)",
+                "locale": "en",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% of 1RM",
+                "locale": "en",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% of 1RM (beginners, endurance)",
+                "locale": "en",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36.0 kg",
+                "locale": "en",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60.0 kg · Brzycki 60.0 kg",
+            "locale": "en",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (fuerza máxima)",
+                "locale": "es",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/fuerza)",
+                "locale": "es",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106,7 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "es",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93,3 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (principiantes, resistencia)",
+                "locale": "es",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133,3 kg · Brzycki 133,3 kg",
+            "locale": "es",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (fuerza máxima)",
+                "locale": "es",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82,5 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/fuerza)",
+                "locale": "es",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73,3 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "es",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64,2 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (principiantes, resistencia)",
+                "locale": "es",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93,3 kg · Brzycki 90,0 kg",
+            "locale": "es",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (fuerza máxima)",
+                "locale": "es",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hipertrofia/fuerza)",
+                "locale": "es",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "es",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (principiantes, resistencia)",
+                "locale": "es",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36,0 kg",
+                "locale": "es",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60,0 kg · Brzycki 60,0 kg",
+            "locale": "es",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (force maximale)",
+                "locale": "fr",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hypertrophie/force)",
+                "locale": "fr",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106,7 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "fr",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93,3 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (débutants, endurance)",
+                "locale": "fr",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133,3 kg · Brzycki 133,3 kg",
+            "locale": "fr",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (force maximale)",
+                "locale": "fr",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82,5 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hypertrophie/force)",
+                "locale": "fr",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73,3 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "fr",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64,2 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (débutants, endurance)",
+                "locale": "fr",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93,3 kg · Brzycki 90,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% de 1RM (force maximale)",
+                "locale": "fr",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% de 1RM (hypertrophie/force)",
+                "locale": "fr",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% de 1RM",
+                "locale": "fr",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% de 1RM (débutants, endurance)",
+                "locale": "fr",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36,0 kg",
+                "locale": "fr",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60,0 kg · Brzycki 60,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% von 1RM (Maximalkraft)",
+                "locale": "de",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% von 1RM (Hypertrophie/Kraft)",
+                "locale": "de",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106,7 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% von 1RM",
+                "locale": "de",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93,3 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% von 1RM (Anfänger, Ausdauer)",
+                "locale": "de",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133,3 kg · Brzycki 133,3 kg",
+            "locale": "de",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% von 1RM (Maximalkraft)",
+                "locale": "de",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82,5 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% von 1RM (Hypertrophie/Kraft)",
+                "locale": "de",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73,3 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% von 1RM",
+                "locale": "de",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64,2 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% von 1RM (Anfänger, Ausdauer)",
+                "locale": "de",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93,3 kg · Brzycki 90,0 kg",
+            "locale": "de",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% von 1RM (Maximalkraft)",
+                "locale": "de",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% von 1RM (Hypertrophie/Kraft)",
+                "locale": "de",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% von 1RM",
+                "locale": "de",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% von 1RM (Anfänger, Ausdauer)",
+                "locale": "de",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36,0 kg",
+                "locale": "de",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60,0 kg · Brzycki 60,0 kg",
+            "locale": "de",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% di 1RM (forza massima)",
+                "locale": "it",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% di 1RM (ipertrofia/forza)",
+                "locale": "it",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106,7 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% di 1RM",
+                "locale": "it",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93,3 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% di 1RM (principianti, resistenza)",
+                "locale": "it",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133,3 kg · Brzycki 133,3 kg",
+            "locale": "it",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% di 1RM (forza massima)",
+                "locale": "it",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82,5 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% di 1RM (ipertrofia/forza)",
+                "locale": "it",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73,3 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% di 1RM",
+                "locale": "it",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64,2 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% di 1RM (principianti, resistenza)",
+                "locale": "it",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93,3 kg · Brzycki 90,0 kg",
+            "locale": "it",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% di 1RM (forza massima)",
+                "locale": "it",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% di 1RM (ipertrofia/forza)",
+                "locale": "it",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% di 1RM",
+                "locale": "it",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% di 1RM (principianti, resistenza)",
+                "locale": "it",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36,0 kg",
+                "locale": "it",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60,0 kg · Brzycki 60,0 kg",
+            "locale": "it",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% من 1RM (القوة القصوى)",
+                "locale": "ar",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "١٢٠٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% من 1RM (تضخم عضلي/قوة)",
+                "locale": "ar",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "١٠٦٫٧ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% من 1RM",
+                "locale": "ar",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "٩٣٫٣ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% من 1RM (المبتدئون، التحمل)",
+                "locale": "ar",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "٨٠٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "إيبلي ١٣٣٫٣ kg · برزيكي ١٣٣٫٣ kg",
+            "locale": "ar",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% من 1RM (القوة القصوى)",
+                "locale": "ar",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "٨٢٫٥ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% من 1RM (تضخم عضلي/قوة)",
+                "locale": "ar",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "٧٣٫٣ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% من 1RM",
+                "locale": "ar",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "٦٤٫٢ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% من 1RM (المبتدئون، التحمل)",
+                "locale": "ar",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "٥٥٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "إيبلي ٩٣٫٣ kg · برزيكي ٩٠٫٠ kg",
+            "locale": "ar",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "90% من 1RM (القوة القصوى)",
+                "locale": "ar",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "٥٤٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "80% من 1RM (تضخم عضلي/قوة)",
+                "locale": "ar",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "٤٨٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "70% من 1RM",
+                "locale": "ar",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "٤٢٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "60% من 1RM (المبتدئون، التحمل)",
+                "locale": "ar",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "٣٦٫٠ kg",
+                "locale": "ar",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "إيبلي ٦٠٫٠ kg · برزيكي ٦٠٫٠ kg",
+            "locale": "ar",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM 的 90%（最大力量）",
+                "locale": "zh",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM 的 80%（肌肥大/力量）",
+                "locale": "zh",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106.7 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM 的 70%",
+                "locale": "zh",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93.3 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM 的 60%（初学者，耐力）",
+                "locale": "zh",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133.3 kg · Brzycki 133.3 kg",
+            "locale": "zh",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM 的 90%（最大力量）",
+                "locale": "zh",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82.5 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM 的 80%（肌肥大/力量）",
+                "locale": "zh",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73.3 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM 的 70%",
+                "locale": "zh",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64.2 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM 的 60%（初学者，耐力）",
+                "locale": "zh",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93.3 kg · Brzycki 90.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM 的 90%（最大力量）",
+                "locale": "zh",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM 的 80%（肌肥大/力量）",
+                "locale": "zh",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM 的 70%",
+                "locale": "zh",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM 的 60%（初学者，耐力）",
+                "locale": "zh",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36.0 kg",
+                "locale": "zh",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60.0 kg · Brzycki 60.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM の90%（最大筋力）",
+                "locale": "ja",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM の80%（筋肥大/筋力）",
+                "locale": "ja",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106.7 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM の70%",
+                "locale": "ja",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93.3 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM の60%（初心者、持久力）",
+                "locale": "ja",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133.3 kg · Brzycki 133.3 kg",
+            "locale": "ja",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM の90%（最大筋力）",
+                "locale": "ja",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82.5 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM の80%（筋肥大/筋力）",
+                "locale": "ja",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73.3 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM の70%",
+                "locale": "ja",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64.2 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM の60%（初心者、持久力）",
+                "locale": "ja",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93.3 kg · Brzycki 90.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM の90%（最大筋力）",
+                "locale": "ja",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM の80%（筋肥大/筋力）",
+                "locale": "ja",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM の70%",
+                "locale": "ja",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM の60%（初心者、持久力）",
+                "locale": "ja",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36.0 kg",
+                "locale": "ja",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60.0 kg · Brzycki 60.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM का 90% (अधिकतम शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "120.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM का 80% (हाइपरट्रॉफी/शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "106.7 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  106.7
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM का 70%",
+                "locale": "hi",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "93.3 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  93.3
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM का 60% (शुरुआती, सहनशक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "80.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  80
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 133.3 kg · Brzycki 133.3 kg",
+            "locale": "hi",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              133.3,
+              133.3
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM का 90% (अधिकतम शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "82.5 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  82.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM का 80% (हाइपरट्रॉफी/शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "73.3 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  73.3
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM का 70%",
+                "locale": "hi",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "64.2 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  64.2
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM का 60% (शुरुआती, सहनशक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "55.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  55
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 93.3 kg · Brzycki 90.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              93.3,
+              90
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg × 1: a própria carga",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "1RM का 90% (अधिकतम शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-97fa0b0909bbf00954ae"
+              },
+              "value": {
+                "text": "54.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  54
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "1RM का 80% (हाइपरट्रॉफी/शक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-d34bb6dfa848e2161fd1"
+              },
+              "value": {
+                "text": "48.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  48
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "1RM का 70%",
+                "locale": "hi",
+                "template": "documented-authored-7ec29bc7d764f4ee966c"
+              },
+              "value": {
+                "text": "42.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  42
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "1RM का 60% (शुरुआती, सहनशक्ति)",
+                "locale": "hi",
+                "template": "documented-authored-2acf43afba2b7132e83d"
+              },
+              "value": {
+                "text": "36.0 kg",
+                "locale": "hi",
+                "template": "documented-authored-23f841d7a96811a142a3",
+                "sourceNumbers": [
+                  36
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Epley 60.0 kg · Brzycki 60.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-5e996faeb0bcb86ab915",
+            "sourceNumbers": [
+              60,
+              60
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}

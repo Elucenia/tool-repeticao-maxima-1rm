@@ -1,0 +1,242 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "repeticao-maxima-1rm",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "484e221689cc84fd2ae11a07be1a9d030cfcd0aa",
+    "oldEngineSha256": "13685ea7d4bdd88cb76c2f2624bdd8348a74a3dce75605f5fc79aebe75c84838",
+    "currentEngineSha256": "46e4ff642523c0c15ccccaa8eafdf89c2a0ccd2c2251770b7d41e9e5840c3ec3"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "100 kg × 10: Epley 133,3; Brzycki 133,3",
+      "input": {
+        "carga": 100,
+        "reps": 10
+      },
+      "publicOutput": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "133,3",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 133.33333333333331,
+          "brzycki": 133.33333333333334,
+          "media": 133.33333333333331
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "epley": 133.33,
+          "brzycki": 133.33,
+          "media": 133.33
+        },
+        "level": "info"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "133,3",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "level": "info",
+        "verdict": "Epley 133,3 kg · Brzycki 133,3 kg",
+        "rows": [
+          [
+            "90% de 1RM (força máxima)",
+            "120,0 kg"
+          ],
+          [
+            "80% de 1RM (hipertrofia/força)",
+            "106,7 kg"
+          ],
+          [
+            "70% de 1RM",
+            "93,3 kg"
+          ],
+          [
+            "60% de 1RM (iniciantes, resistência)",
+            "80,0 kg"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "epley": 133.33333333333331,
+          "brzycki": 133.33333333333334,
+          "media": 133.33333333333331
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "80 kg × 5: Epley 93,3; Brzycki 90,0; média 91,7",
+      "input": {
+        "carga": 80,
+        "reps": 5
+      },
+      "publicOutput": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "91,7",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 93.33333333333334,
+          "brzycki": 90,
+          "media": 91.66666666666667
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "epley": 93.33,
+          "brzycki": 90,
+          "media": 91.67
+        }
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "91,7",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "level": "info",
+        "verdict": "Epley 93,3 kg · Brzycki 90,0 kg",
+        "rows": [
+          [
+            "90% de 1RM (força máxima)",
+            "82,5 kg"
+          ],
+          [
+            "80% de 1RM (hipertrofia/força)",
+            "73,3 kg"
+          ],
+          [
+            "70% de 1RM",
+            "64,2 kg"
+          ],
+          [
+            "60% de 1RM (iniciantes, resistência)",
+            "55,0 kg"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "epley": 93.33333333333334,
+          "brzycki": 90,
+          "media": 91.66666666666667
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "60 kg × 1: a própria carga",
+      "input": {
+        "carga": 60,
+        "reps": 1
+      },
+      "publicOutput": {
+        "id": "repeticao-maxima-1rm",
+        "main": [
+          "60,0",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        }
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "60,0",
+          "kg"
+        ],
+        "label": "1RM estimada (média de Epley e Brzycki)",
+        "level": "info",
+        "verdict": "Epley 60,0 kg · Brzycki 60,0 kg",
+        "rows": [
+          [
+            "90% de 1RM (força máxima)",
+            "54,0 kg"
+          ],
+          [
+            "80% de 1RM (hipertrofia/força)",
+            "48,0 kg"
+          ],
+          [
+            "70% de 1RM",
+            "42,0 kg"
+          ],
+          [
+            "60% de 1RM (iniciantes, resistência)",
+            "36,0 kg"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "epley": 60,
+          "brzycki": 60,
+          "media": 60
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}
